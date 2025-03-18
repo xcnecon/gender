@@ -1,0 +1,32 @@
+---
+title: "Gender Inequality in the Age of Globalization: A Survey on China’s Post-Reform Transition"
+format: 
+    pdf:
+        documentclass: article 
+        number-sections: true
+        margin-top: 1in
+        margin-bottom: 1in
+        margin-left: 1in
+        margin-right: 1in
+        linestretch:  1.2
+        fontsize: 10pt
+        fig-pos: "H"
+        author: "Chenning Xu"
+bibliography: reference.bib
+---
+
+# Introduction
+This essay surveys the evolving dynamics of gender inequality in China's post-reform period, focusing on how market reforms and globalization have shaped issues such as the gender wage gap, occupational segregation, and intersections with rural-urban and regional disparities. It begins by exploring how China's market-oriented economic reforms have influenced gender disparities, emphasizing labor market outcomes and educational inequalities. Particular attention is given to the period following China's accession to the World Trade Organization (WTO), highlighting how globalization and export-led economic growth have affected gender inequality. The essay concludes by identifying gaps in the current literature and suggesting directions for future research.
+
+# 
+
+
+
+
+
+
+
+
+
+
+# 
