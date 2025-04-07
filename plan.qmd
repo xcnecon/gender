@@ -1,0 +1,61 @@
+1. Introduction
+* 1.1. Hook: Significance of China's WTO accession (Dec 2001) and subsequent economic transformation.
+* 1.2. Background: Briefly state the rapid export growth observed post-WTO and the concurrent focus on gender dynamics.
+* 1.3. Define Key Concepts: High export growth (post-WTO phenomenon), specific dimensions of gender inequality (LFPR, wage gap, unpaid care, capability approach).
+* 1.4. Research Question/Objective: Clearly state the survey aims to review literature on how China's post-WTO high export growth period affected these dimensions of gender inequality.
+* 1.5. Scope and Limitations: Define temporal scope (primarily post-2001, using pre-accession gender situation as baseline) and other limitations.
+* 1.6. Theoretical Framework(s): Briefly mention relevant theories connecting trade expansion/economic shocks to gender outcomes.
+* 1.7. Outline Structure: Briefly map out the survey sections.
+
+2. Background: Economic Transformation and Gender Landscape
+* 2.1. Pre-WTO Gender Inequality Landscape:
+* 2.1.1. Legacy of Mao Era & Early Reforms on Gender Roles/Outcomes.
+* 2.1.2. Gender Dynamics in the 1980s-1990s (Baseline trends in participation, wages, education pre-WTO).
+* 2.2. WTO Accession and Subsequent Export Boom:
+* 2.2.1. Key Trade Reforms and WTO Commitments.
+* 2.2.2. Evidence of Accelerated Export Growth Post-2001.
+* 2.3. International Context: Trade Liberalization and Gender Inequality (Briefly discuss general findings or theories from international evidence, placing China's case in broader context).
+* 2.4. Hypothesized Mechanisms: How might rapid export growth theoretically impact gender dynamics in the Chinese context? (e.g., labor demand shifts, competition effects, migration, household income changes).
+
+3. Literature Review: Impact on Female Labor Force Participation (Previously Section 4)
+* 3.1. Overall Trends in Female LFPR Post-WTO.
+* 3.2. Sectoral Shifts: Role of export-oriented manufacturing vs. other sectors.
+* 3.3. Regional Variations: Coastal vs. inland areas.
+* 3.4. Migration: Role of female migrant labor.
+* 3.5. Job Quality and Security issues.
+
+4. Literature Review: Impact on Gender Wage Gap and Labor Market Discrimination (Previously Section 5)
+* 4.1. Trends in the Gender Wage Gap.
+* 4.2. Explanations (Skills, occupational segregation, feminization of export jobs).
+* 4.3. Evidence on Discrimination dynamics.
+* 4.4. Sectoral and Regional Differences.
+
+5. Literature Review: Impact on Unpaid Care Work and Household Dynamics (Previously Section 6)
+* 5.1. Changes in Time Use (Unpaid care/domestic work).
+* 5.2. Impact of Female Employment/Migration on household task allocation.
+* 5.3. Intersection with Social Norms.
+* 5.4. Role of Policy Context (Childcare, eldercare).
+
+6. Literature Review: Broader Social Dimensions - Education and Social Attitudes (Previously Section 7)
+* 6.1. Educational Attainment and Choices.
+* 6.2. Shifts/Persistence in Social Attitudes towards Gender Roles.
+* 6.3. Other relevant social changes (Marriage, fertility, etc., if linked).
+
+7. Normative Analysis: Women's Capabilities and Feminist Perspectives (Previously Section 8)
+* 7.1. Introduction to Capability Approach in this context.
+* 7.2. Assessing Impacts on Key Capabilities (Health, education, empowerment, etc.).
+* 7.3. Feminist Critiques/Perspectives on China's global integration.
+* 7.4. Synthesis of Normative Arguments.
+
+8. Synthesis, Methodological Considerations, and Gaps in Literature (Previously Section 9)
+* 8.1. Overall Synthesis of Findings (Complexity, contradictions).
+* 8.2. Methodological Approaches Used in Literature (Strengths/weaknesses, data issues).
+* 8.3. Identified Gaps for Future Research.
+
+9. Conclusion (Previously Section 10)
+* 9.1. Summary of Key Findings from Literature Review.
+* 9.2. Overall Assessment of the multifaceted impact of high export growth period.
+* 9.3. Policy Implications (Optional).
+* 9.4. Future Research Directions.
+
+10. Bibliography/References (Previously Section 11)
