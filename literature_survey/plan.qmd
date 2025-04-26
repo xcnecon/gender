@@ -1,0 +1,41 @@
+---
+title: "Reference"
+format: 
+    pdf:
+        documentclass: article 
+        number-sections: true
+        margin-top: 1in
+        margin-bottom: 1in
+        margin-left: 1in
+        margin-right: 1in
+        linestretch:  1.2
+        fontsize: 10pt
+        fig-pos: "H"
+        author: "Chenning Xu"
+bibliography: gender.bib
+---
+
+# Pre-reform background
+@attane_being_2012: p3
+
+# Labor participation
+@attane_being_2012: p4
+
+# Education
+@attane_being_2012: p3
+
+# Earnings
+@attane_being_2012: p5
+
+# Attitudes
+@attane_being_2012: p5, p7 bottom on inheritance
+
+# Globlisation
+@chen_globalization_2013
+
+# Inequality within family
+@attane_being_2012: p7
+
+# Unpaid care workL
+@attane_being_2012: p7
+

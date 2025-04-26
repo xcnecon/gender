@@ -1,0 +1,66 @@
+Research questions:
+1) What is the current state of gender inequality in China&#39;s labor market?
+I am interested in examining the gender gap across various dimensions of paid work in China. This
+study will explore differences in work time, including the number of months worked per year and
+hours per day, as well as disparities in employment status, such as being an employee, self-
+employed, an employer, or a domestic helper. Additionally, I will investigate how gender influences
+the choice of industry and work type, the commuting distance from home to the workplace, and the
+type of work contracts held. The research will also analyze gender pay differentials, participation in
+the gig economy (including platforms like ridesharing, delivery services, and e-commerce),
+retirement income, and the share of migrant workers in urban areas.
+Gender inequality in the gig economy is a topic of special interest to me as this data is only
+available for 2018, and the gig economy is very popular in these years. Few studies have been done
+on the 2018 data, which was released in 2021.
+
+2) How does gender inequality in China intersect with the urban-rural and east-west divide?
+I aim to investigate how gender income inequality in China intersects with broader structural
+divides, particularly the urban-rural divide shaped by the Hukou system and the development gap
+between the coastal east and inland west. This research will examine whether and how these
+regional inequalities exacerbate or mitigate gender disparities in income.
+
+3) How does marriage status affect women’s wage income in China?
+I would study how marriage status affects women’s wage and gender income inequality. For
+example, I would use the age of first marriage as a control to study how women’s choice of when to
+marry affects their later income.
+
+4) How does gender inequality change after China joined WTO?
+I hope to study the change in gender income inequality in China after It joined the WTO in 2001.
+This task might be limited by the compatibility of data across time, but if time and data allow, I
+would do it.
+
+Theoretical framework:
+The study would fit in with the context of our week 5 lecture, gender inequality in the labor market.
+I would also incorporate the capability approach in the analysis of empirical findings. For example,
+if early marriage has a cumulative negative effect on women’s earnings but not men’s, then I could
+argue that women’s capability of earning as much as men is tampered by their capability to marry
+early.
+Data:
+I will use the Chinese Household Income Project data (CHIP). I already possess the data set in .dta
+form. I have the data from 1988 to 2018 with gaps between available years. For each year, the
+survey is divided into urban and rural households. All the variables I have mentioned in the
+research questions are available in the surveys, at least in the 2018 survey, which I have studied
+carefully.
+
+Methodology:
+1) Summary statistics and graphs
+I will present the state of gender inequality in the labor market using standard summary statistics. If
+I have the ability to study it over multiple years, I would present it in a longitudinal form.
+3) Inequality decomposition
+I can calculate the Gini or Theil index for men and women separately alongside comparing the
+mean-median income between men and women to see the within-sex and between-sex inequality in
+China. It is interesting as I don’t know which sex has a higher earnings inequality. I can also
+decompose the Theil index for both sexes into within and between-sex contributions to see how
+much earnings inequality comes from the inequality between men and women.
+3) Regression analysis
+I would regress income by controlling variables such as sex, age, marital status, the age of first
+marriage, hukou status, province location, and their
+
+Teacher response:
+1. May be have a broader umbrella question within which you can support the hypothesis by presenting evidence from each of the questions you have in the proposal.
+2. Consider using Oaxaca-Blinder decomposition to assess the sources of earnings inequality between men and women. 
+
+3. It will be good to talk about a theory or some alternate theories in the paper that can explain the inequality say-
+3.1 Comparative Advantage 
+3.2 Labor market discrimination theories
+3.3 SPA - you can talk here about unpaid work and how that has a role to play in the labor market. 
+3.4 Capabilities Approach - as you also mention
