@@ -1,0 +1,137 @@
+---
+title: "Causes of Gender Wage Gap in China: Evidence from 2018 CHIP Data"
+format: 
+    pdf:
+        documentclass: article 
+        number-sections: true
+        margin-top: 1in
+        margin-bottom: 1in
+        margin-left: 1in
+        margin-right: 1in
+        linestretch:  1.2
+        fontsize: 12pt
+        author: "Chenning Xu"
+        fig-pos: "H"
+bibliography: gender.bib
+abstract: "This paper investigates the determinants of China's gender wage gap using microdata from the 2018 Chinese Household Income Project (CHIP). Employing Oaxaca–Blinder two-fold decomposition methods for the overall workforce and subgroups stratified by marital status, age, and sector, it quantifies the relative importance of observable endowments versus unexplained coefficients. The results reveal that, particularly among younger cohorts, observable endowment differences account for only a small fraction of the wage gap. Instead, institutional factors related to marriage and industry segregation significantly contribute to wage disparities. Drawing upon Sen’s capability approach, this paper argues that social institutions, especially marriage and entrenched gender norms, systematically constrain women's economic capabilities, resulting in persistent inequality in labor-market outcomes. Effective policy interventions must therefore extend beyond human capital investments and include expanding publicly funded childcare, enhancing maternal and parental leave policies, and incentivizing gender diversity across sectors. Such coordinated governmental and societal initiatives are essential for closing China’s gender wage gap and promoting equitable economic opportunities for women."
+---
+
+# Introduction
+Since initiating economic reforms in 1978, China has experienced rapid economic growth, maintaining an average GDP growth rate of over 9%, accompanied by profound structural and social transformations [@world_bank_gdp_2025]. While this economic expansion has substantially improved living standards, it has also coincided with rising economic inequality. A crucial yet often overlooked dimension of this inequality is gender disparity. Studies indicate that since the 1990s, gender gaps in labor force participation and wages have widened significantly [@brussevich_chinas_2021; @attane_being_2012; @song2017urban]. Understanding the underlying factors driving these gender inequalities in the labor market is essential for developing effective policy responses.
+
+This paper uses micro-level data from the 2018 Chinese Household Income Project (CHIP) to analyze contemporary determinants of China's gender wage gap. Through Oaxaca–Blinder two-fold decomposition analyses conducted for the overall workforce and subgroups defined by marital status, age, and economic sectors, this study reveals the institutional factors sustaining wage disparities. Specifically, marriage and occupational segregation emerge as critical contributors to the gender wage gap. Drawing on Sen’s capability approach, the paper argues that social institutions—particularly marriage and deeply entrenched gender norms, significantly limit women's earnings capabilities, reinforcing persistent inequalities in labor-market outcomes. Thus, policy interventions must move beyond conventional human capital strategies and incorporate measures such as expanding publicly funded childcare, strengthening maternal and parental leave policies, and actively incentivizing gender diversity across industries. Comprehensive and coordinated policy efforts are imperative to close the gender wage gap and enhance equitable economic opportunities for women in China.
+
+# Literature Review
+This section provides a brief review of reviews the existing literature on the state and causes of gender wage gap in China. 
+
+## China's Economic Reform
+China's rapid economic growth since initiating market reforms in 1978 has been extensively studied; however, the interplay between economic transitions and gender inequality has received relatively less attention. Prior to economic reforms, gender equality was promoted explicitly through socialist policies emphasizing women's full participation in employment. State interventions, such as publicly funded childcare and maternity leave, actively facilitated women’s entry into the workforce. Nevertheless, despite these measures, women predominantly occupied lower-paying positions and were rarely appointed to managerial or political roles, highlighting persistent societal biases and limitations in policy implementation [@attane_being_2012; @liu_economic_2011].
+
+Economic reforms fundamentally reshaped gender dynamics in China's labor market. Early rural reforms introduced the household responsibility system, dismantling collective agriculture and promoting rural industrialization through township and village enterprises (TVEs). These reforms significantly altered rural economic structures and laid groundwork for urban transformations. The late 1990s witnessed extensive privatization of state-owned enterprises (SOEs), markedly reshaping urban employment and catalyzing rapid economic growth. However, these reforms disproportionately disadvantaged female workers, intensifying gender disparities in employment outcomes. For instance, women constituted approximately 60% of the workforce laid off from SOEs, facing significantly lower reemployment rates compared to their male counterparts[@liu_economic_2011; @brussevich_chinas_2021]. Further integration of China into global markets following its accession to the World Trade Organization (WTO) in 2001 provided increased employment opportunities in export-oriented industries but simultaneously reinforced occupational segregation and gender wage gaps[@chen_globalization_2013; @wang_trade_2020].
+
+## Gender Wage Gap in China
+hina’s gender wage gap has progressively widened since the economic liberalization of the 1990s. Initially modest, the gap grew notably as men disproportionately benefitted from higher-paying opportunities emerging within newly liberalized and market-oriented sectors. @gustafsson_economic_2000 report an increase in the gender wage gap from roughly 15.6% in 1988 to 17.5% by 1995, reflecting women’s disadvantaged position amid structural labor-market shifts. Further exacerbated by China's entry into the WTO, wage disparities continued to widen into the early 2000s, driven by increasing occupational segregation and persistent institutional barriers [@brussevich_chinas_2021].
+
+Occupational segregation remains a central cause of wage inequality. Women frequently cluster in lower-paid, precarious sectors, notably intensified by the privatization of SOEs. For instance, @li_labor_2024 highlight that wage disparities have been particularly pronounced in China’s private sector, largely attributable to heightened gender discrimination following privatization reforms. Globalization further compounded these disparities by expanding female employment primarily in lower-paid manufacturing roles, thus simultaneously providing employment opportunities and deepening wage inequalities @chen_globalization_2013.
+
+Marriage and parenthood emerge as critical institutional factors underpinning persistent gender wage disparities. Parenthood, notably, yields substantial wage penalties for women while men typically experience wage premiums, reflecting entrenched societal norms and employer biases around gender roles. Mothers experience reduced wages, whereas fathers typically enjoy increased earnings, significantly exacerbating gender wage inequality among middle-aged cohorts [@ma_parenthood_2022]. Empirical evidence also emphasizes marriage as a critical life event negatively impacting women's economic opportunities and further contributing to the gender wage gap [@song2017urban].
+
+Despite persistent structural inequalities, some recent evidence indicates moderation in gender disparities since the mid-2000s. @song2017urban document a narrowing gender wage gap in urban China, decreasing from approximately 35.6% in 2007 to 28.2% in 2013, possibly reflecting gradual shifts in social norms, improved female educational attainment, or targeted policy interventions. Nevertheless, significant gender disparities persist, underscoring ongoing institutional and cultural challenges and the continued need for effective policy responses.
+
+# Data and Methodology
+## Data
+This study utilizes data from the 2013 and 2018 waves of the Chinese Household Income Project (CHIP), with a primary focus on the 2018 dataset. The CHIP is a nationally representative survey of Chinese households, providing detailed information on household income, employment, and demographic characteristics. The analysis sample includes only the working population, excluding individuals who reported working fewer than 80 hours per year or earned an annual wage below 200 yuan (approximately 30 USD). Wage income in this study refers to the annual income from the main job plus in-kind subsidies. 
+
+Several demographic and socioeconomic variables are used to represent personal endowments, including Eastern regional residence, urban residence, rural migrant status (applicable to urban residents only), years of education, age, subjective health, political affiliation (membership in either the Communist Party of China or other democratic parties), single-child status, and ethnicity (Han versus ethnic minority).
+
+Additionally, this study incorporates several labor market characteristics, including industry classifications, employer ownership type, employment type, formal contract status, and occupational categories. Employers are classified into three ownership categories: state-owned (encompassing state and collective-owned enterprises and government institutions), privately owned, and foreign-owned, with private ownership serving as the reference category. Industries are grouped into primary, secondary, and tertiary sectors according to the Chinese National Standard Industrial Classification, with the primary sector as the reference category. Employment type is divided into three groups: employed, self-employed, and family helpers, with "employed" as the reference category. Finally, two dummy variables are created to identify workers with formal employment contracts and those occupying high-skill positions, defined as department heads or professional technicians ("good job").
+
+\begin{center}
+[Insert Table 1 about here]
+\end{center}
+
+Clearly, both mean annual wages and mean hourly wages for men are consistently higher than those for women in 2013 and 2018. The gender average wage ratio slightly declined from 81.2% in 2013 to 79.2% in 2018. The median wage ratio remained unchanged at 80% in both years, highlighting the persistence of the gender wage gap. 
+
+In terms of working hours, women worked on average approximately 80 hours more than men annually in 2013, while their average working hours became slightly lower than men’s in 2018. Considering existing studies that document women’s significantly higher involvement in unpaid care responsibilities, spending more than twice as much time as men (27.6 hours per week for women compared to 12.9 hours per week for men, according to @dong_gender_2015), the comparable or greater paid working hours for women indicate a notably heavier total workload relative to men. 
+
+More women appear to reside in urban areas compared to men in both the 2013 and 2018 samples. Additionally, women are more likely than men to reside in the eastern region in both survey years. For clarity, "East" in this study refers specifically to China's eastern region, comprising Beijing, Tianjin, Hebei, Shanghai, Jiangsu, Zhejiang, Fujian, Shandong, Guangdong, and Hainan provinces, whereas the "non-East" region includes all remaining provinces.
+
+Women also exhibit better educational attainment compared to men in both 2013 and 2018. It should be noted that educational years in this study exclude kindergarten, meaning that ten years of education equates to completing the first year of high school. However, women report fewer non-education years relative to men, likely due to women exiting the labor force earlier as a result of statutory retirement age differences between men and women in China.
+
+Several other noteworthy observations emerge from the data. Men are substantially more likely to hold membership in the Communist Party of China than women. In terms of occupational skill levels, women appeared more likely to occupy "good jobs" than men in 2013, but by 2018 this trend reversed, with men notably surpassing women in holding such positions. Moreover, men are significantly more concentrated in the secondary industrial sector, whereas women are heavily represented in the tertiary sector. Lastly, women are less likely to be single children and are more likely to serve as family helpers.
+
+## Methodology
+This study employs the Oaxaca–Blinder decomposition method based on pooled regressions to analyze the determinants of the gender wage gap [@oaxaca_1973; @blinder_wage_1973]. The decomposition is applied to the overall workforce as well as to distinct subgroups defined by marital status, age, and economic sectors, to identify potential heterogeneity in factors influencing gender wage disparities. The pooled regression approach is selected due to significant differences in the estimated coefficients for certain explanatory variables between men and women, which can complicate interpretation when using separate regressions. Formally, the decomposition using pooled regression coefficients can be expressed as:
+
+$$
+\overline{W}_m - \overline{W}_f = (\overline{X}_m - \overline{X}_f)\hat{\beta} + \left[\,\overline{X}_m(\hat{\beta}_m - \hat{\beta}) + \overline{X}_f(\hat{\beta} - \hat{\beta}_f)\,\right]
+$$
+
+
+In this equation, $\overline{W}_m$ and $\overline{W}_f$ represent the mean log hourly wages of men and women, respectively; $\overline{X}_m$ and $\overline{X}_f$ are vectors of mean observable characteristics (such as education, age, occupation, and industry); and $\hat{\beta}$ denotes coefficients estimated from a pooled regression that combines data for both genders. The first component, $(\overline{X}_m - \overline{X}_f)\hat{\beta}$, captures the wage gap explained by differences in observable characteristics. The second component, $\overline{X}_m(\hat{\beta}_m - \hat{\beta}) + \overline{X}_f(\hat{\beta} - \hat{\beta}_f)$, measures the "unexplained" portion, reflecting the differences in returns to these characteristics between genders relative to the pooled average, which may indicate discrimination or other unobserved factors.
+
+
+# Results
+
+\begin{center}
+[Insert Table 2 about here]
+\end{center}
+
+The results indicate that in 2013, men's average log hourly wage was 0.27 log points higher than women's, equivalent to approximately a 31% wage premium relative to women. By 2018, the log hourly wage gap slightly declined to 0.25 log points, corresponding to roughly a 28.4% wage premium for men. Although this modest reduction alone might be insufficient to conclusively indicate a narrowing of the gender wage gap, it suggests some moderation over the period studied. This result aligns with @song2017urban's findings, which documented a narrowing of the gender wage gap between 2007 and 2013 after a period of widening from 1995 to 2007. A detailed decomposition is provided in Table 3, with only significant coefficients included. The pooled and separate regression results are provided in Table 4. 
+
+\begin{center}
+[Insert Table 3 about here]
+\end{center}
+
+\begin{center}
+[Insert Table 4 about here]
+\end{center}
+
+The decomposition results indicate that only 0.017 log points out of the total 0.248 log-point wage difference can be attributed to differences in observable characteristics between men and women. Although women have slightly better endowments in terms of residing in eastern and urban regions, the wage impacts of these advantages are negligible. Women's higher educational attainment and relatively younger age collectively reduce the log hourly wage gap by 0.014. Additionally, women’s marginally higher likelihood of having formal employment contracts further reduces the gap by approximately 0.003. However, women’s lower representation in managerial and professional roles increases the wage gap by 0.015 log points. Most significantly, women's much lower likelihood of employment in the higher-paying secondary industry widens the wage gap by 0.032 log points. Although women are more frequently employed in the tertiary sector, which narrows the gap by about 0.011 log points, this effect is insufficient to fully counterbalance the disadvantage stemming from the secondary sector.
+
+Compared to the explained portion, the unexplained component of the gender wage gap is significantly larger. Women experience higher returns to residing in eastern and urban areas, collectively narrowing the gap by approximately 0.042 log points. Furthermore, women receive notably higher returns to education, substantially reducing the gap by about 0.083 log points. Additionally, women exhibit higher returns to political affiliation, single-child status, holding formal contracts, and occupying high-skill ("good") jobs, which together narrow the gap by an additional 0.045 log points.
+
+However, women have significantly lower returns compared to men when working in state-owned and foreign-owned enterprises, as opposed to domestic private firms, increasing the wage gap by 0.089 log points. The returns to employment in secondary and tertiary industries are also substantially lower for women, widening the gap by a considerable 0.146 log points. Consistent with the findings presented in @tbl-regression2018, women employed in the secondary sector gain only 0.061 log points compared to the primary sector, whereas men gain 0.258 log points. Moreover, women earn even less in the tertiary sector compared to the primary sector, while men achieve a gain of 0.117 log points. Such stark disparities suggest that even as women transition out of the primary sector, they remain segregated into lower-skilled and lower-paid segments of the labor market. Finally, the constant term—which includes unobserved factors and potential pure discrimination—is positive but of limited statistical significance, further widening the wage gap by 0.168 log points.
+
+## Impact of Marriage on Gender Wage Gap
+
+\newpage
+# Appendix
+::: {#tbl-summary}
+
+{{< include "output/sumstats.txt" >}}
+
+Source: CHIP 2013 and 2018. Unit for wage is nominal yuan. 
+
+Summary Statistics
+:::
+
+::: {#tbl-oaxaca}
+
+{{< include "output/oaxaca_2013_2018.txt" >}}
+
+Source: CHIP 2013 and 2018. 
+
+Oaxaca-Blinder Decomposition for 2013 and 2018
+:::
+
+::: {#tbl-oaxaca2018}
+
+{{< include "output/oaxaca_2018.txt" >}}
+
+Source: CHIP 2018. 
+
+Oaxaca-Blinder Decomposition for 2018
+:::
+
+\newpage
+::: {#tbl-regression2018}
+
+{{< include "output/regression_2018.txt" >}}
+
+Source: CHIP 2018. 
+
+Regression Results for 2018
+:::
+
+# References

@@ -1,0 +1,32 @@
+| Section     | Term                  | Coefficient           |
+|-------------|-----------------------|----------------------|
+| Overall     | men                   | 2.995*** <br> (0.006) |
+| Overall     | women                 | 2.747*** <br> (0.007) |
+| Overall     | difference            | 0.248*** <br> (0.009) |
+| Overall     | explained             | 0.017*** <br> (0.004) |
+| Overall     | unexplained           | 0.231*** <br> (0.009) |
+| Explained   | East region           | -0.002*** <br> (0.001) |
+| Explained   | Urban residence       | -0.007*** <br> (0.001) |
+| Explained   | Education years       | -0.010*** <br> (0.002) |
+| Explained   | Non-education years   | -0.004*** <br> (0.001) |
+| Explained   | Political identity    | 0.003*** <br> (0.001)  |
+| Explained   | Single child          | -0.001** <br> (0.000)  |
+| Explained   | Has contract          | -0.003** <br> (0.001)  |
+| Explained   | Good job              | 0.015*** <br> (0.001)  |
+| Explained   | state-owned           | 0.003*** <br> (0.001)  |
+| Explained   | secondary industry    | 0.032*** <br> (0.005)  |
+| Explained   | tertiary industry     | -0.011*** <br> (0.004) |
+| Explained   | Family helper         | 0.003*** <br> (0.001)  |
+| Unexplained | East region           | -0.010* <br> (0.006)   |
+| Unexplained | Urban residence       | -0.032** <br> (0.015)  |
+| Unexplained | Education years       | -0.083** <br> (0.039)  |
+| Unexplained | Political identity    | -0.014*** <br> (0.004) |
+| Unexplained | Single child          | -0.010*** <br> (0.003) |
+| Unexplained | Has contract          | -0.011* <br> (0.007)  |
+| Unexplained | Good job              | -0.010** <br> (0.004) |
+| Unexplained | state-owned           | 0.030** <br> (0.014)  |
+| Unexplained | secondary industry    | 0.059*** <br> (0.017) |
+| Unexplained | tertiary industry     | 0.087*** <br> (0.034) |
+| Unexplained | Self-employed         | 0.015*** <br> (0.004) |
+| Unexplained | Family helper         | -0.004*** <br> (0.001)|
+| Unexplained | Constant              | 0.168 <br> (0.109)   |
