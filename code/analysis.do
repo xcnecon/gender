@@ -17,16 +17,8 @@ reg log_hwage east urban edu_years non_edu_years health political single_child h
 // separate regression
 reg log_hwage east urban edu_years non_edu_years health political single_child han contract good_job ownership_type_1 ownership_type_2 industry_type_2 industry_type_3 self_employed family_helper if women == 1
 reg log_hwage east urban edu_years non_edu_years health political single_child han contract good_job ownership_type_1 ownership_type_2 industry_type_2 industry_type_3 self_employed family_helper if women == 0
-
-
 // Oaxaca decomposition
 oaxaca log_hwage east urban edu_years non_edu_years health political single_child han contract good_job ownership_type_1 ownership_type_2 industry_type_2 industry_type_3 self_employed family_helper, by(women) pooled
-// Without industry segregation
-oaxaca log_hwage east urban edu_years non_edu_years health political single_child han contract good_job ownership_type_1 ownership_type_2 industry_type_2 industry_type_3 self_employed family_helper, by(women) pooled
-// without ownership segregation
-oaxaca log_hwage east urban edu_years non_edu_years health political single_child han contract good_job industry_type_2 industry_type_3 self_employed family_helper, by(women) pooled
-// without job segregation
-oaxaca log_hwage east urban edu_years non_edu_years health political single_child han ownership_type_1 ownership_type_2 industry_type_2 industry_type_3, by(women) pooled
 
 // Oaxaca decomposition for unmarried women
 oaxaca log_hwage east urban edu_years non_edu_years health political single_child han contract good_job ownership_type_1 ownership_type_2 industry_type_2 industry_type_3 self_employed family_helper if unmarried == 1, by(women) pooled

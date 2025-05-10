@@ -13,7 +13,7 @@ format:
         author: "Chenning Xu"
         fig-pos: "H"
 bibliography: gender.bib
-abstract: "This paper investigates the determinants of China's gender wage gap using microdata from the 2018 Chinese Household Income Project (CHIP). Employing Oaxaca–Blinder two-fold decomposition methods for the overall workforce and subgroups stratified by marital status, age, and sector, it quantifies the relative importance of observable endowments versus unexplained coefficients. The results reveal that, particularly among younger cohorts, observable endowment differences account for only a small fraction of the wage gap. Instead, institutional factors related to marriage and industry segregation significantly contribute to wage disparities. Drawing upon Sen’s capability approach, this paper argues that social institutions, especially marriage and entrenched gender norms, systematically constrain women's economic capabilities, resulting in persistent inequality in labor-market outcomes. Effective policy interventions must therefore extend beyond human capital investments and include expanding publicly funded childcare, enhancing maternal and parental leave policies, and incentivizing gender diversity across sectors. Such coordinated governmental and societal initiatives are essential for closing China’s gender wage gap and promoting equitable economic opportunities for women."
+abstract: "This paper investigates the determinants of China's gender wage gap using microdata from the 2018 Chinese Household Income Project (CHIP). Employing Oaxaca–Blinder two-fold decomposition methods for the overall workforce and subgroups stratified by marital status and age, it quantifies the relative importance of observable endowments versus unexplained coefficients. The results reveal that observable endowment differences could not explain the gender wage gap. Instead, institutional factors related to marriage and industry segregation significantly contribute to wage disparities. Drawing upon Sen’s capability approach, this paper argues that social institutions, especially marriage and entrenched gender norms, systematically constrain women's economic capabilities, resulting in persistent inequality in labor-market outcomes. Effective policy interventions must therefore extend beyond human capital investments and include expanding publicly funded childcare, enhancing maternal and parental leave policies, and incentivizing gender diversity across sectors. Such coordinated governmental and societal initiatives are essential for closing China’s gender wage gap and promoting equitable economic opportunities for women."
 ---
 
 # Introduction
@@ -93,7 +93,53 @@ Compared to the explained portion, the unexplained component of the gender wage 
 
 However, women have significantly lower returns compared to men when working in state-owned and foreign-owned enterprises, as opposed to domestic private firms, increasing the wage gap by 0.089 log points. The returns to employment in secondary and tertiary industries are also substantially lower for women, widening the gap by a considerable 0.146 log points. Consistent with the findings presented in @tbl-regression2018, women employed in the secondary sector gain only 0.061 log points compared to the primary sector, whereas men gain 0.258 log points. Moreover, women earn even less in the tertiary sector compared to the primary sector, while men achieve a gain of 0.117 log points. Such stark disparities suggest that even as women transition out of the primary sector, they remain segregated into lower-skilled and lower-paid segments of the labor market. Finally, the constant term—which includes unobserved factors and potential pure discrimination—is positive but of limited statistical significance, further widening the wage gap by 0.168 log points.
 
+The unreported variables including health, ethnicity, and hired by foreign firms do not pose statistical significant contribution to the gender wage gap by either explained or unexplained effects. 
+
 ## Impact of Marriage on Gender Wage Gap
+To investiage the impact of marriage on the gender wage gap,this section performs Oaxaca-Blinder decomposition on the sample partitioned by marital status and age. 
+
+\begin{center}
+[Insert Table 5 about here]
+\end{center}
+
+Summary statistics for the subgroups are presented in @tbl-subgroup-summary. On average, unmarried and married female workers are both younger compared to their male counterparts within the same marital status groups. Among the age-based subgroups, women exhibit a lower average age compared to men only in the group aged 50 and above. This difference likely reflects the earlier statutory retirement age for women in China, causing them to exit the labor force sooner than men.
+
+\begin{center}
+[Insert Table 6 about here]
+\end{center}
+
+The results illustrate a stark contrast in the magnitude of the gender wage gap between married and unmarried workers. Among unmarried workers, the gender wage gap is relatively modest, at just 0.058 log points. Differences in observable characteristics (endowments) of unmarried women compared to unmarried men reduce the gap by approximately 0.051 log points, while the unexplained component contributes to widening the gap by about 0.109 log points. In contrast, among married workers, the gender wage gap expands dramatically to 0.277 log points, more than five times the gap observed among unmarried workers.
+
+Moreover, key contributors to the wage gap for married workers, such as employment in secondary and tertiary industries, are not statistically significant among unmarried workers, suggesting occupational segregation is not a substantial factor for unmarried individuals. These results collectively indicate that marriage represents a critical life event significantly amplifying the wage disparity between men and women, a finding consistent with previous research documented by @song2017urban.
+
+\begin{center}
+[Insert Table 7 about here]
+\end{center}
+
+The Oaxaca–Blinder decomposition by age group reveals several important patterns. First, among workers younger than 26, the gender wage gap is relatively small at only 0.109 log points—slightly larger than the gap observed among unmarried workers but significantly smaller than in older cohorts. The endowment effect for this youngest age group is negligible and statistically insignificant, indicating that nearly the entire wage gap is driven by unexplained factors. Consistent with findings for unmarried workers, differential returns to industry are not statistically significant for this youngest age group.
+
+However, the gender wage gap markedly increases for the 26–35 age group, rising sharply to 0.284 log points. At this stage, the endowment differences explain only about 2% of the gap, with the overwhelming majority remaining unexplained. Notably, differences in non-education years emerge as a substantial contributor, accounting for 0.147 log points of the gap. This suggests that women start facing wage penalties related to age after reaching 25 years old, aligning with the hypothesis that women experience wage disadvantages associated with marriage and childbirth, and that these disadvantages accumulate over time.
+
+For workers aged above 50, the gender wage gap further widens to 0.329 log points. More than 10% of this gap can be explained by observable characteristics, particularly labor market characteristics such as industry and employment type. Differential returns associated with employment in the secondary and tertiary industries, as well as self-employment, contribute substantially to the unexplained portion of the gap, underscoring the persistent influence of industry segmentation and employment patterns on gender wage disparities.
+
+In conclusion, this section shows that marriage is a critical life event significantly altering the magnitude and pattern of the gender wage gap. Age appears to be another important factor, with women experiencing a more pronounced wage penalty after reaching 25 years old. In any subgroup, education could not explain any of the wage gap, if not narrowing it. 
+
+# Theory and Policy Implications
+The results presented in the preceding section clearly demonstrate that marriage and age significantly shape the gender wage gap in China. Among unmarried workers, the wage disparity was relatively small; however, after marriage, the gender wage gap expanded dramatically, becoming more than five times larger. Similarly, the gap was modest among younger workers under age 26 but increased sharply for individuals aged between 26 and 35, coinciding precisely with the common age range for marriage and childbirth. These findings illustrate that marriage and associated life-course transitions substantially limit women’s economic outcomes, suggesting deeper structural constraints beyond observable differences in human capital and demographic characteristics.
+
+To interpret these results more comprehensively, Sen’s capability approach provides an insightful analytical framework. @sen_development_1999 argues that development should be evaluated in terms of the real freedoms—or capabilities—that individuals can actually exercise, rather than simply focusing on their resources or endowments. @robeyns_capability_2005 elaborates further by emphasizing that resources acquire meaningful value only when individuals can effectively transform them into valuable outcomes through personal, social, and institutional conversion factors. When these conversion factors are gendered, identical endowments between men and women may yield significantly unequal outcomes. Social institutions, including marital expectations and caregiving norms, act as critical conversion barriers that limit women's capacity to utilize their educational and occupational endowments fully [@robeyns_sens_2003]. Thus, marriage is not merely a private event but a significant institutional factor that systematically restricts women's economic opportunities and capabilities.
+
+Within the Chinese context, marriage imposes pronounced capability constraints on women. The disproportionate responsibility women bear for unpaid household care significantly reduces their freedom to engage in paid employment fully and advance professionally [@qi_unpaid_2015]. Empirical evidence confirms that married women face substantial wage penalties, whereas married men frequently experience wage premiums, reinforcing persistent and substantial gender wage gaps, particularly among middle-aged cohorts [@ma_parenthood_2022]. Furthermore, employer biases and societal expectations regarding fertility disproportionately affect married women, reducing their returns on human capital precisely when their work experience and professional skills should enhance their earning potential [@song2017urban]. Thus, from the capability perspective, marriage emerges as a critical institutional mechanism that restricts women's capacity to translate their personal endowments into fair and equitable labor market outcomes.
+
+Given these structural barriers, policy interventions aiming merely to enhance women's education or training—typical "endowment" strategies—are likely insufficient. Instead, effective policies must directly address the institutional conversion factors constraining women's economic capabilities post-marriage and across their life course. For instance, universal access to publicly funded childcare and elder-care services would significantly alleviate the time burdens women disproportionately face [@qi_unpaid_2015]. Policies promoting equal parental leave and robust anti-discrimination enforcement could mitigate the risk perceptions employers associate with married women and motherhood. Additionally, harmonizing statutory retirement ages between men and women, coupled with mid-career reskilling initiatives, would extend women's ability to fully capitalize on accumulated professional experience. Finally, targeted policy measures to reduce occupational segregation—such as incentives for gender diversity in apprenticeship programs and public-sector procurement—would expand women's labor-market opportunities and substantially broaden their capability set.
+
+Thus, a capability-oriented policy agenda focuses explicitly on dismantling these institutional barriers and enhancing the substantive freedoms women have to pursue valued economic activities. Such an approach aligns closely with @sen_development_1999's foundational assertion that development efforts must fundamentally prioritize enhancing "the lives and liberties of people".
+
+# Conclusion
+This paper has demonstrated that China's gender wage gap is profoundly shaped by structural constraints related to marriage and age rather than by differences in observable endowments alone. The empirical analysis highlighted a substantial expansion of wage disparities after marriage, illustrating that marriage significantly limits women's opportunities to fully convert their human capital into economic achievements. These findings suggest that marriage, reinforced by social expectations and institutional norms, functions as a critical barrier to women's economic capabilities, perpetuating persistent gender inequalities in the labor market.
+
+From a policy perspective, this implies that initiatives should move beyond traditional endowment-focused approaches. Effective policy responses should explicitly aim to dismantle institutional barriers constraining women's economic capabilities following marriage and throughout their working lives. Such measures include expanding publicly funded childcare and elder-care services, introducing policies that encourage equal participation in parental responsibilities, harmonizing retirement ages, and actively promoting occupational integration. By addressing these deeper structural constraints, policymakers can significantly enhance women's substantive economic freedoms, ultimately fostering a more equitable labor market environment in China.
+
 
 \newpage
 # Appendix
@@ -110,7 +156,7 @@ Summary Statistics
 
 {{< include "output/oaxaca_2013_2018.txt" >}}
 
-Source: CHIP 2013 and 2018. 
+Source: CHIP 2013 and 2018. Standard errors are in parentheses. \***, \**, and \* indicate significance at the 1%, 5%, and 10% levels, respectively.
 
 Oaxaca-Blinder Decomposition for 2013 and 2018
 :::
@@ -119,19 +165,54 @@ Oaxaca-Blinder Decomposition for 2013 and 2018
 
 {{< include "output/oaxaca_2018.txt" >}}
 
-Source: CHIP 2018. 
+Source: CHIP 2018. Standard errors are in parentheses. \***, \**, and \* indicate significance at the 1%, 5%, and 10% levels, respectively. Only significant coefficients are reported.
 
 Oaxaca-Blinder Decomposition for 2018
 :::
 
-\newpage
 ::: {#tbl-regression2018}
 
 {{< include "output/regression_2018.txt" >}}
 
-Source: CHIP 2018. 
+Source: CHIP 2018. Standard errors are in parentheses. \***, \**, and \* indicate significance at the 1%, 5%, and 10% levels, respectively. Only significant coefficients are reported.
 
 Regression Results for 2018
 :::
+
+
+\newpage
+::: {#tbl-subgroup-summary}
+
+{{< include "output/subgroup_summary_statistics.txt" >}}    
+
+Source: CHIP 2018.
+
+Summary Statistics by Marriage Status and Age
+:::
+
+\newpage
+
+\newpage
+::: {#tbl-marriage}
+
+{{< include "output/marriage_oaxaca.txt" >}}    
+
+Source: CHIP 2018. Standard errors are in parentheses. \***, \**, and \* indicate significance at the 1%, 5%, and 10% levels, respectively. Only significant coefficients are reported.
+
+Oaxaca-Blinder Decomposition by Marriage Status for 2018
+:::
+
+\newpage
+::: {#tbl-age}
+
+{{< include "output/age_oaxaca.txt" >}}    
+
+Source: CHIP 2018. Standard errors are in parentheses. \***, \**, and \* indicate significance at the 1%, 5%, and 10% levels, respectively. Only significant coefficients are reported.
+
+Oaxaca-Blinder Decomposition by Age for 2018
+:::
+
+
+
 
 # References

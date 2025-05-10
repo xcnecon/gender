@@ -1,0 +1,29 @@
+| Section     | Term                  | 14-25                | 26-50                | above 50                |
+|-------------|-----------------------|----------------------|----------------------|-------------------------|
+| Overall     | group_1               | 2.846*** <br> (0.017) | 3.083*** <br> (0.007) | 2.820*** <br> (0.013)   |
+| Overall     | group_2               | 2.737*** <br> (0.020) | 2.800*** <br> (0.008) | 2.490*** <br> (0.021)   |
+| Overall     | difference            | 0.109*** <br> (0.027) | 0.284*** <br> (0.011) | 0.329*** <br> (0.024)   |
+| Overall     | explained             | -0.013 <br> (0.011)  | 0.018*** <br> (0.005) | 0.108*** <br> (0.012)   |
+| Overall     | unexplained           | 0.122*** <br> (0.026) | 0.266*** <br> (0.010) | 0.221*** <br> (0.024)   |
+| Explained   | East region           | 0.000 <br> (0.001)   | -0.003*** <br> (0.001) | -0.002 <br> (0.001)     |
+| Explained   | Urban residence       | 0.005 <br> (0.003)   | -0.006*** <br> (0.001) | -0.001 <br> (0.001)     |
+| Explained   | Education years       | -0.055*** <br> (0.010) | -0.008*** <br> (0.002) | 0.006 <br> (0.006)      |
+| Explained   | Non-education years   | 0.018*** <br> (0.005) | 0.001* <br> (0.000) | 0.008 <br> (0.004)      |
+| Explained   | Political identity    | -0.001 <br> (0.001)  | 0.003*** <br> (0.001) | -0.000 <br> (0.003)     |
+| Explained   | Has contract          | -0.007* <br> (0.004) | -0.003* <br> (0.001) | 0.028*** <br> (0.004)    |
+| Explained   | Good job              | 0.000 <br> (0.002)   | 0.017*** <br> (0.002) | 0.022*** <br> (0.003)    |
+| Explained   | State-owned           | 0.000 <br> (0.001)   | 0.002** <br> (0.001) | 0.005 <br> (0.003)      |
+| Explained   | Collective-owned      | 0.002 <br> (0.002)   | 0.001* <br> (0.001) | -0.004 <br> (0.003)      |
+| Explained   | Secondary industry    | 0.009 <br> (0.030)   | 0.032*** <br> (0.006) | 0.028** <br> (0.008)     |
+| Explained   | Tertiary industry     | 0.016 <br> (0.031)   | -0.019*** <br> (0.006) | 0.009 <br> (0.005)      |
+| Explained   | Family helper         | -0.000 <br> (0.001)  | 0.002* <br> (0.001) | 0.009* <br> (0.004)      |
+| Unexplained | Non-education years   | 0.032 <br> (0.136)   | 0.147*** <br> (0.040) | 0.050 <br> (0.243)      |
+| Unexplained | Political identity    | -0.005 <br> (0.005)  | -0.010* <br> (0.004) | -0.017 <br> (0.009)     |
+| Unexplained | Single child          | 0.000 <br> (0.016)  | -0.009* <br> (0.004) | -0.002 <br> (0.004)     |
+| Unexplained | Has contract          | -0.020 <br> (0.014) | -0.023** <br> (0.008) | -0.007 <br> (0.012)     |
+| Unexplained | Good job              | -0.013 <br> (0.012) | -0.013** <br> (0.005) | -0.017* <br> (0.008)     |
+| Unexplained | Secondary industry    | 0.024 <br> (0.096)  | 0.032 <br> (0.024) | 0.112*** <br> (0.024)    |
+| Unexplained | Tertiary industry     | 0.060 <br> (0.295)  | 0.069 <br> (0.047) | 0.105* <br> (0.047)      |
+| Unexplained | Self-employed         | 0.002 <br> (0.007)  | 0.004 <br> (0.005) | 0.056*** <br> (0.015)    |
+| Unexplained | Family helper         | -0.003 <br> (0.003) | -0.004** <br> (0.001) | -0.005 <br> (0.005)     |
+| Unexplained | Constant              | -0.482 <br> (0.520) | 0.095 <br> (0.141) | -0.213 <br> (0.341)      |
